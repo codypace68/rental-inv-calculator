@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
+import InputCard from './InputCard'
+import RulePassCard from './RulePassCard'
 import './App.css'
 
 function App() {
@@ -27,31 +29,6 @@ function App() {
         passesTwoPercent={passesTwoPercentRule}
         cashFlow={estimatedCashFlow}
       />
-    </div>
-  )
-}
-
-function InputCard({purchasePrice, estimatedRent, monthlyMortgage, onPurchasePriceChange, onEstimatedRentChange, onMonthlyMortgageChange}) {
-  return (
-    <div className='inputs card'>
-      <label>Purchase Price: </label>
-      <input type="number" value={purchasePrice} step={100} onChange={(e) => onPurchasePriceChange(e.target.value)}/>
-
-      <label >Estimated Rent: </label>
-      <input type="number" value={estimatedRent} step={100} onChange={(e) => onEstimatedRentChange(e.target.value)}/>
-
-      <label>Monthly Mortgage: </label>
-      <input type="number" value={monthlyMortgage} step={100} onChange={(e) => onMonthlyMortgageChange(e.target.value)}/>
-    </div>
-  )
-}
-
-function RulePassCard({passesOnePercent, passesTwoPercent, cashFlow}) {
-  return (
-    <div className='card'>
-      <h4>Passes 1% Rule? {passesOnePercent? '✅' : '❌'}</h4>
-      <h4>Passes 2% Rule? {passesTwoPercent? '✅✅' : '❌'}</h4>
-      <h4>Cash Flow based on 50% Rules? <h3 style={{color: '#FB2576'}}>{cashFlow < 0 ? '🥹 $' + cashFlow : '💰 $' + cashFlow}</h3></h4>
     </div>
   )
 }
