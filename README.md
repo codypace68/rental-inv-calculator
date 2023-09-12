@@ -9,18 +9,18 @@ Just enter the purchase price, desired rent, and monthly mortgage and the calcul
 
 # Scoring system
 
-## Flop! Run Away!
+## ❌ Flop! Run Away!
 It doesn't pass the 1% or 2% rule and it doesn't cash flow. Run away!
 <!-- image -->
 ![No Go](./public/no-go.png)
 
 
-## Good. Look into it a little more.
+## ✅ Good. Look into it a little more.
 It passes the 1% rule but not the 2% rule. It's cash flow is great so maybe not passing the 2% rule is ok.
 <!-- image --> 
 ![Go](./public/good.png)
 
-## Why are you still reading this! 
+## ✅ ✅ Why are you still reading this! 
 It passes the 2% rule and cash flows. Seems like a strong investment.
 <!-- image --> 
 ![Go](./public/great.png)
