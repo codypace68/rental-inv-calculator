@@ -16,7 +16,7 @@ It doesn't pass the 1% or 2% rule and it doesn't cash flow. Run away!
 
 
 ## Good. Look into it a little more.
-It passes the 1% rule but not the 2% rule. It's cash is great so maybe not passing the 2% rule is ok.
+It passes the 1% rule but not the 2% rule. It's cash flow is great so maybe not passing the 2% rule is ok.
 <!-- image --> 
 ![Go](./public/good.png)
 
